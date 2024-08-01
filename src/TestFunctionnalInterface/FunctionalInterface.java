@@ -9,14 +9,16 @@ public class FunctionalInterface {
       return t.length();
     }
   }
+
   public static void main(String[] args) {
 
     Function<String, Integer> getlenght = new ToLenght();
     int lenght = getlenght.apply("Rotha is");
     System.out.println(lenght);
 
-
     // ================================================================================
-    
+    // using lambda to count the character
+    Function<String, Integer> getlenght2 = (String name) -> name.length();
+    System.out.println(getlenght2.apply("Vorn SreyLeak"));
   }
 }
