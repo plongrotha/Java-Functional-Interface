@@ -1,3 +1,5 @@
 
 
 functional Interface is Interface that have abstract method only 1
+
+SAM stand for Single Abstract Method
