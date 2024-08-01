@@ -1,0 +1,3 @@
+
+
+functional Interface is Interface that have abstract method only 1
