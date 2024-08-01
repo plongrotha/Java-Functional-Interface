@@ -18,7 +18,12 @@ public class FunctionalInterface {
 
     // ================================================================================
     // using lambda to count the character
-    Function<String, Integer> getlenght2 = (String name) -> name.length();
+    Function<String, Integer> getlenght2 = name -> name.length();
     System.out.println(getlenght2.apply("Vorn SreyLeak"));
+
+    // ================
+    // get the first character
+    Function<String, Character> firstChar = text -> text.charAt(0);
+    System.out.println(firstChar.apply("Leak"));
   }
 }
