@@ -26,7 +26,7 @@ public class FunctionalInterfaceDemo {
     int total = addNumber.add(25);
     System.out.println(total);
 
-    // Lambda style to add number
+    // Lambda Expression to add number
     AddNumber addNumberLambda = (int n) -> n + 300;
     System.out.println(addNumberLambda.add(20));
   }
