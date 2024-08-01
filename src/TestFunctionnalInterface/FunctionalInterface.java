@@ -25,5 +25,7 @@ public class FunctionalInterface {
     // get the first character
     Function<String, Character> firstChar = text -> text.charAt(0);
     System.out.println(firstChar.apply("Leak"));
+
+    // 
   }
 }
