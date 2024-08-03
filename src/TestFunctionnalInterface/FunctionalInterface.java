@@ -26,6 +26,12 @@ public class FunctionalInterface {
     Function<String, Character> firstChar = text -> text.charAt(0);
     System.out.println(firstChar.apply("Leak"));
 
-    // 
+    // functional method
+    Function<Integer, Integer> power = n -> n * n;
+    System.out.println(power.apply(3));
+
+
+
+
   }
 }

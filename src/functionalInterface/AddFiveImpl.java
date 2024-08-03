@@ -1,4 +1,4 @@
-package mpl;
+package functionalInterface;
 
 public class AddFiveImpl implements AddFive {
 

@@ -1,8 +1,6 @@
 package functionalInterface;
 
-import mpl.AddFive;
-import mpl.AddFiveImpl;
-import mpl.AddNumber;
+import java.util.function.Function;
 
 public class FunctionalInterfaceDemo {
 
@@ -29,5 +27,6 @@ public class FunctionalInterfaceDemo {
     // Lambda Expression to add number
     AddNumber addNumberLambda = (int n) -> n + 300;
     System.out.println(addNumberLambda.add(20));
+
   }
 }

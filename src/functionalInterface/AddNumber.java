@@ -1,4 +1,4 @@
-package mpl;
+package functionalInterface;
 
 public interface AddNumber {
 
